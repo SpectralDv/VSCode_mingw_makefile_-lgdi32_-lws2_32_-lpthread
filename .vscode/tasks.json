@@ -1,0 +1,17 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "shell",
+			"label": "C/C++",
+			"command": "C:/MinGW/bin/g++",
+			"args": [
+				"main.cpp","-I C:/MinGW/include","-L C:/MinGW/lib/","-lgdi32","-lws2_32","-lpthread","-o","main.exe",
+			],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			}
+		}
+	]
+}
